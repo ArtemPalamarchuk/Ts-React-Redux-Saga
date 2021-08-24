@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "ES6",
+    "outDir": "./dist/",
+    "jsx": "react",
+    "allowJs": true,
+    "baseUrl": ".",
+    "moduleResolution": "Node",
+    "preserveWatchOutput": true,
+    "allowSyntheticDefaultImports": true,
+  },
+  "exclude": ["node_modules"],
+  "compileOnSave": true
+}
