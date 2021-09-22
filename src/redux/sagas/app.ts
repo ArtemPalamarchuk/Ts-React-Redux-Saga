@@ -1,4 +1,5 @@
 import {takeEvery} from 'redux-saga/effects'
+import {appTypes} from '../../redux/actions/app';
 
 function* sagaTest(){
   const response = yield fetch('https://jsonplaceholder.typicode.com/users')
@@ -8,5 +9,5 @@ function* sagaTest(){
 }
 
 export const appSagas = [
-  takeEvery('A', sagaTest),
+  takeEvery(appTypes.A, sagaTest),
 ]
