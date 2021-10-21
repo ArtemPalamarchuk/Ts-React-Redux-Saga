@@ -1,8 +1,9 @@
-import {appReducer, initAppState} from '../redux/reducers/app';
 import {appSelectors} from '@src/redux/selectors/app';
 
 const initState = {
-  data: 'asd'
+  app:{
+    data: 'asd'
+  }
 }
 
 // Тестирование селекторов
